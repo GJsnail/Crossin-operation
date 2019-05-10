@@ -1,5 +1,5 @@
 #将成绩数据先全部列出，然后遍历循环，同时在进行排序。最后插入科目表和平均成绩
-with open(file,"r",encoding="gbk") as f:
+with open("report.txt","r",encoding="gbk") as f:
     all_data = f.readlines() #all_data 文件所有信息
 
 student_total = len(all_data[1:]) #学生人数
